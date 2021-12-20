@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "sourceMap": true,
+    "target": "es6",
     "module": "commonjs",
-    "lib": ["es2017", "es7", "es6", "dom"],
-    "declaration": true,
-    "outDir": "dist",
+    "moduleResolution": "node",
+    "sourceMap": true,
     "strict": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "outDir": "dist"
   },
-  "exclude": ["node_modules", "dist", "src/tests", "src/**/*.spec.ts", "docs"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
