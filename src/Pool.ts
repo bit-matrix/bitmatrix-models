@@ -1,5 +1,5 @@
 import { BmBlockInfo } from "./BmBlockInfo";
-import { BmTxInfo } from "./BmInfo";
+import { BmTxInfo } from "./BmTxInfo";
 import { PAsset } from "./PAsset";
 
 export type Pool = {

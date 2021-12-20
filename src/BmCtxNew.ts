@@ -1,4 +1,4 @@
-import { BmTxInfo } from "./BmInfo";
+import { BmTxInfo } from "./BmTxInfo";
 import { CallData } from "./CallData";
 
 export type BmCtxNew = {
