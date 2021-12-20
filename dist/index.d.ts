@@ -10,4 +10,5 @@ import { CallData } from "./CallData";
 import { CALL_METHOD } from "./CALL_METHOD";
 import { PAsset } from "./PAsset";
 import { Pool } from "./Pool";
-export { BmBlockInfo, BmConfig, BmCtxMempool, BmCtxNew, BmTxInfo, BmPtx, BmPtxCtx, BmValue, CALL_METHOD, CallData, PAsset, Pool };
+import { PoolValues } from "./PoolValues";
+export { BmBlockInfo, BmConfig, BmCtxMempool, BmCtxNew, BmTxInfo, BmPtx, BmPtxCtx, BmValue, CALL_METHOD, CallData, PAsset, Pool, PoolValues };

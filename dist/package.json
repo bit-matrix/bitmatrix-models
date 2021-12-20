@@ -1,0 +1,19 @@
+{
+  "name": "@bitmatrix/models",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "npm-publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bit-matrix/bitmatrix-models.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bit-matrix/bitmatrix-models/issues"
+  },
+  "homepage": "https://github.com/bit-matrix/bitmatrix-models#readme"
+}
