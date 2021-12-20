@@ -1,9 +1,5 @@
-export type PAsset = { ticker: string; name: string; asset: string; value: string };
+import { BmValue } from "./BmValue";
 
-export type BmValue = {
-  number: string;
-  hex: string;
-};
 export type BmConfig = {
   id: string;
   minRemainingSupply: string;

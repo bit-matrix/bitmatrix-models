@@ -1,6 +1,6 @@
-import { BmBlockInfo, BmTxInfo } from "./BmInfo";
-
-export type PAsset = { ticker: string; name: string; asset: string; value: string };
+import { BmBlockInfo } from "./BmBlockInfo";
+import { BmTxInfo } from "./BmInfo";
+import { PAsset } from "./PAsset";
 
 export type Pool = {
   id: string;
