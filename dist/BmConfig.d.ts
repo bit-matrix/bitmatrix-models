@@ -1,8 +1,8 @@
 import { BmValue } from "./BmValue";
 export declare type BmConfig = {
     id: string;
-    minRemainingSupply: string;
-    minTokenValue: string;
+    minRemainingSupply: number;
+    minTokenValue: number;
     baseFee: BmValue;
     serviceFee: BmValue;
     commitmentTxFee: BmValue;

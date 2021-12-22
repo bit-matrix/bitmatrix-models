@@ -1,12 +1,5 @@
-import { CALL_METHOD } from "./CALL_METHOD";
-export declare type CallData = {
-    method: CALL_METHOD;
-    recipientPublicKey: string;
-    slippageTolerance: string;
-    orderingFee: number;
-    value: {
-        quote: number;
-        token: number;
-        lp: number;
-    };
+import { CallDataBase } from "./CallDataBase";
+import { CallDataValue } from "./CallDataValue";
+export declare type CallData = CallDataBase & {
+    value: CallDataValue;
 };

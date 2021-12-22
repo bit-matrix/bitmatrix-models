@@ -1,4 +1,4 @@
 export declare type BmValue = {
-    number: string;
+    number: number;
     hex: string;
 };
