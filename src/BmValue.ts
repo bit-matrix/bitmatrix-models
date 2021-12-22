@@ -1,4 +1,4 @@
 export type BmValue = {
-    number: string;
-    hex: string;
+  number: number;
+  hex: string;
 };
