@@ -33,7 +33,7 @@ export declare type Pool = {
     /**
      * recent worker found pool tx (it may be spent, validate "synced")
      */
-    lastUnspentTx: BmTxInfo;
+    unspentTx?: BmTxInfo;
     /**
      * if worker broadcast one tx, save here.
      * when it confirmed (worker found new ptx is equal to this), delete for new creation pool tx
