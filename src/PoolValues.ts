@@ -4,5 +4,6 @@ export type PoolValues = {
   quote: string;
   token: string;
   lp: string;
-  unspentTx?: BmTxInfo;
+  ptxInfo: BmTxInfo;
+  unspent: boolean;
 };
