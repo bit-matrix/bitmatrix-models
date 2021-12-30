@@ -1,4 +1,5 @@
 import { BmBlockInfo } from "./BmBlockInfo";
+import { BmChart } from "./BmChart";
 import { BmConfig } from "./BmConfig";
 import { BmCtxMempool } from "./BmCtxMempool";
 import { BmCtxNew } from "./BmCtxNew";
@@ -17,6 +18,7 @@ import { PoolValues } from "./PoolValues";
 
 export {
   BmBlockInfo,
+  BmChart,
   BmConfig,
   BmCtxMempool,
   BmCtxNew,
