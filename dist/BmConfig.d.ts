@@ -9,4 +9,18 @@ export declare type BmConfig = {
     defaultOrderingFee: BmValue;
     fundingOutputAddress: string;
     innerPublicKey: string;
+    recipientValueMinus: number;
+    holderCovenant: {
+        scriptpubkey: {
+            main: string;
+            token: string;
+            lp: string;
+        };
+        controlBlockPrefix: {
+            main: string;
+            token: string;
+            lp: string;
+        };
+    };
+    mainCovenantScript: string;
 };
