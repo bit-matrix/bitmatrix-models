@@ -15,7 +15,7 @@ export type BmConfig = {
     scriptpubkey: { main: string; token: string; lp: string };
     controlBlockPrefix: { main: string; token: string; lp: string };
   };
-  mainCovenantScript: string;
+  mainCovenantScript: string[];
 };
 
 /* const bmConfig: BmConfig = {
