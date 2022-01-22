@@ -22,5 +22,5 @@ export declare type BmConfig = {
             lp: string;
         };
     };
-    mainCovenantScript: string;
+    mainCovenantScript: string[];
 };
