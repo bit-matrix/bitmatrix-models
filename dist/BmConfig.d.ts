@@ -23,4 +23,5 @@ export declare type BmConfig = {
         };
     };
     mainCovenantScript: string[];
+    maxLeaf: number;
 };
