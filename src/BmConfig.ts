@@ -16,6 +16,7 @@ export type BmConfig = {
     controlBlockPrefix: { main: string; token: string; lp: string };
   };
   mainCovenantScript: string[];
+  maxLeaf: number;
 };
 
 /* const bmConfig: BmConfig = {
