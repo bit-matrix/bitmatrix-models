@@ -1,5 +1,6 @@
 import { BmCtxNew } from "./BmCtxNew";
 
 export type BmCtxMempool = BmCtxNew & {
-    poolTxid: string;
+  poolTxid: string;
+  isOutOfSlippage: boolean;
 };
