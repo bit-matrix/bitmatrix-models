@@ -3,6 +3,7 @@ import { BmChart } from "./BmChart";
 import { BmConfig } from "./BmConfig";
 import { BmCtxMempool } from "./BmCtxMempool";
 import { BmCtxNew } from "./BmCtxNew";
+import { BmNewPtxResult } from "./BmNewPtxResult";
 import { BmPtx } from "./BmPtx";
 import { BmPtxCtx } from "./BmPtxCtx";
 import { BmTxInfo } from "./BmTxInfo";
@@ -22,6 +23,7 @@ export {
   BmConfig,
   BmCtxMempool,
   BmCtxNew,
+  BmNewPtxResult,
   BmTxInfo,
   BmPtx,
   BmPtxCtx,
