@@ -51,4 +51,6 @@ export type Pool = {
    * pool is active
    */
   active: boolean;
+
+  usdPrice: number;
 };
