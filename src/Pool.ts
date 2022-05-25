@@ -1,5 +1,6 @@
 import { BmBlockInfo } from "./BmBlockInfo";
 import { BmTxInfo } from "./BmTxInfo";
+import { ChartData } from "./ChartData";
 import { PAsset } from "./PAsset";
 
 /**
@@ -53,4 +54,25 @@ export type Pool = {
   active: boolean;
 
   usdPrice: number;
+
+  tvl: {
+    value: number;
+    rate: { value: string; direction: string };
+  };
+
+  volume: {
+    value: number;
+    rate: { value: string; direction: string };
+  };
+
+  fees: {
+    value: number;
+    rate: { value: string; direction: string };
+  };
+
+  price: {
+    value: number;
+    rate: { value: string; direction: string };
+    allPriceData: ChartData[];
+  };
 };
