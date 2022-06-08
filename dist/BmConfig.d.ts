@@ -7,7 +7,6 @@ export declare type BmConfig = {
     serviceFee: BmValue;
     commitmentTxFee: BmValue;
     defaultOrderingFee: BmValue;
-    fundingOutputAddress: string;
     innerPublicKey: string;
     recipientValueMinus: number;
     holderCovenant: {
