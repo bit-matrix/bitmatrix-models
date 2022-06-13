@@ -75,4 +75,8 @@ export type Pool = {
     rate: { value: string; direction: string };
     allPriceData: ChartData[];
   };
+  /**
+   * token price opposite to quote price
+   */
+  tokenPrice?: number;
 };
