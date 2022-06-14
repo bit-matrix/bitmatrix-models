@@ -53,8 +53,6 @@ export type Pool = {
    */
   active: boolean;
 
-  usdPrice: number;
-
   tvl: {
     value: number;
     rate: { value: string; direction: string };
