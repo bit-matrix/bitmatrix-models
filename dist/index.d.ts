@@ -1,3 +1,4 @@
+import { AppSync } from "./AppSync";
 import { BmBlockInfo } from "./BmBlockInfo";
 import { BmChart } from "./BmChart";
 import { BmConfig } from "./BmConfig";
@@ -16,4 +17,4 @@ import { CALL_METHOD } from "./CALL_METHOD";
 import { PAsset } from "./PAsset";
 import { Pool } from "./Pool";
 import { PoolValues } from "./PoolValues";
-export { BmBlockInfo, BmChart, BmConfig, BmCtxMempool, BmCtxNew, BmNewPtxResult, BmTxInfo, BmPtx, BmPtxCtx, BmValue, CommitmentOutput, CALL_METHOD, CallData, CallDataBase, CallDataValue, PAsset, Pool, PoolValues, };
+export { AppSync, BmBlockInfo, BmChart, BmConfig, BmCtxMempool, BmCtxNew, BmNewPtxResult, BmTxInfo, BmPtx, BmPtxCtx, BmValue, CommitmentOutput, CALL_METHOD, CallData, CallDataBase, CallDataValue, PAsset, Pool, PoolValues, };
