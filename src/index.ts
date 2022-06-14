@@ -1,3 +1,4 @@
+import { AppSync } from "./AppSync";
 import { BmBlockInfo } from "./BmBlockInfo";
 import { BmChart } from "./BmChart";
 import { BmConfig } from "./BmConfig";
@@ -18,6 +19,7 @@ import { Pool } from "./Pool";
 import { PoolValues } from "./PoolValues";
 
 export {
+  AppSync,
   BmBlockInfo,
   BmChart,
   BmConfig,
