@@ -1,7 +1,6 @@
 import { BmValue } from "./BmValue";
 
 export type BmConfig = {
-  id: string;
   minRemainingSupply: number;
   minTokenValue: number;
   baseFee: BmValue;
@@ -10,12 +9,6 @@ export type BmConfig = {
   defaultOrderingFee: BmValue;
   innerPublicKey: string;
   recipientValueMinus: number;
-  holderCovenant: {
-    scriptpubkey: { main: string; token: string; lp: string };
-    controlBlockPrefix: { main: string; token: string; lp: string };
-  };
-  mainCovenantScript: string[];
-  maxLeaf: number;
 };
 
 /* const bmConfig: BmConfig = {
