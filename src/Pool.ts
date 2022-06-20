@@ -61,4 +61,13 @@ export type Pool = {
    * token price opposite to quote price
    */
   tokenPrice?: number;
+
+  holderCovenant: {
+    scriptpubkey: { main: string; token: string; lp: string };
+    controlBlockPrefix: { main: string; token: string; lp: string };
+  };
+
+  mainCovenantScript: string[];
+
+  maxLeaf: number;
 };
