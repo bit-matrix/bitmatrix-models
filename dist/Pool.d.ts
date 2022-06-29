@@ -1,5 +1,4 @@
 import { BmTxInfo } from "./BmTxInfo";
-import { ChartData } from "./ChartData";
 import { PAsset } from "./PAsset";
 /**
  * worker looks before creating new pool tx:
@@ -30,35 +29,6 @@ export declare type Pool = {
      * pool is active
      */
     active: boolean;
-    tvl: {
-        value: number;
-        rate: {
-            value: string;
-            direction: string;
-        };
-    };
-    volume: {
-        value: number;
-        rate: {
-            value: string;
-            direction: string;
-        };
-    };
-    fees: {
-        value: number;
-        rate: {
-            value: string;
-            direction: string;
-        };
-    };
-    price: {
-        value: number;
-        rate: {
-            value: string;
-            direction: string;
-        };
-        allPriceData: ChartData[];
-    };
     /**
      * token price opposite to quote price
      */
