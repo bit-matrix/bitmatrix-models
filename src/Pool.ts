@@ -37,26 +37,6 @@ export type Pool = {
    */
   active: boolean;
 
-  tvl: {
-    value: number;
-    rate: { value: string; direction: string };
-  };
-
-  volume: {
-    value: number;
-    rate: { value: string; direction: string };
-  };
-
-  fees: {
-    value: number;
-    rate: { value: string; direction: string };
-  };
-
-  price: {
-    value: number;
-    rate: { value: string; direction: string };
-    allPriceData: ChartData[];
-  };
   /**
    * token price opposite to quote price
    */

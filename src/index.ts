@@ -12,6 +12,7 @@ import { BmValue } from "./BmValue";
 import { CallData } from "./CallData";
 import { CallDataBase } from "./CallDataBase";
 import { CallDataValue } from "./CallDataValue";
+import { ChartSummary } from "./ChartSummary";
 import { CommitmentOutput } from "./CommitmentOutput";
 import { CALL_METHOD } from "./CALL_METHOD";
 import { PAsset } from "./PAsset";
@@ -35,6 +36,7 @@ export {
   CallData,
   CallDataBase,
   CallDataValue,
+  ChartSummary,
   PAsset,
   Pool,
   PoolValues,
