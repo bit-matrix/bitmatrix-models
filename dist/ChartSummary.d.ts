@@ -1,7 +1,8 @@
 import { ChartData } from "./ChartData";
 export declare type ChartSummary = {
+    poolId: string;
     tvl: {
-        value: number;
+        todayValue: number;
         rate: {
             value: string;
             direction: string;
@@ -9,7 +10,7 @@ export declare type ChartSummary = {
         allTvlData?: ChartData[];
     };
     volume: {
-        value: number;
+        todayValue: number;
         rate: {
             value: string;
             direction: string;
@@ -17,7 +18,7 @@ export declare type ChartSummary = {
         allVolumeData?: ChartData[];
     };
     fees: {
-        value: number;
+        todayValue: number;
         rate: {
             value: string;
             direction: string;
@@ -25,7 +26,7 @@ export declare type ChartSummary = {
         allFeesData?: ChartData[];
     };
     price: {
-        value: number;
+        todayValue: number;
         rate: {
             value: string;
             direction: string;
