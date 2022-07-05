@@ -18,6 +18,9 @@ import { CALL_METHOD } from "./CALL_METHOD";
 import { PAsset } from "./PAsset";
 import { Pool } from "./Pool";
 import { PoolValues } from "./PoolValues";
+import { TxDetailRPC } from "./TxDetailRPC";
+import { TxVOutRPC } from "./TxVOutRPC";
+import { TxVInRPC } from "./TxVInRPC";
 
 export {
   AppSync,
