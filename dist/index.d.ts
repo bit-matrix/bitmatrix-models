@@ -18,4 +18,7 @@ import { CALL_METHOD } from "./CALL_METHOD";
 import { PAsset } from "./PAsset";
 import { Pool } from "./Pool";
 import { PoolValues } from "./PoolValues";
-export { AppSync, BmBlockInfo, BmChart, BmConfig, BmCtxMempool, BmCtxNew, BmNewPtxResult, BmTxInfo, BmPtx, BmPtxCtx, BmValue, CommitmentOutput, CALL_METHOD, CallData, CallDataBase, CallDataValue, ChartSummary, PAsset, Pool, PoolValues, };
+import { TxDetailRPC } from "./TxDetailRPC";
+import { TxVOutRPC } from "./TxVOutRPC";
+import { TxVInRPC } from "./TxVInRPC";
+export { AppSync, BmBlockInfo, BmChart, BmConfig, BmCtxMempool, BmCtxNew, BmNewPtxResult, BmTxInfo, BmPtx, BmPtxCtx, BmValue, CommitmentOutput, CALL_METHOD, CallData, CallDataBase, CallDataValue, ChartSummary, PAsset, Pool, PoolValues, TxDetailRPC, TxVOutRPC, TxVInRPC, };
