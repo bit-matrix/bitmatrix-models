@@ -43,4 +43,7 @@ export {
   PAsset,
   Pool,
   PoolValues,
+  TxDetailRPC,
+  TxVOutRPC,
+  TxVInRPC,
 };
