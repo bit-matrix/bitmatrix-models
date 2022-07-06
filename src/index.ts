@@ -14,6 +14,7 @@ import { CallDataBase } from "./CallDataBase";
 import { CallDataValue } from "./CallDataValue";
 import { ChartSummary } from "./ChartSummary";
 import { CommitmentOutput } from "./CommitmentOutput";
+import { CTXPTXResult } from "./CTXPTXResult";
 import { CALL_METHOD } from "./CALL_METHOD";
 import { PAsset } from "./PAsset";
 import { Pool } from "./Pool";
@@ -40,6 +41,7 @@ export {
   CallDataBase,
   CallDataValue,
   ChartSummary,
+  CTXPTXResult,
   PAsset,
   Pool,
   PoolValues,
