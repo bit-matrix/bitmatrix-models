@@ -12,16 +12,23 @@ import { BmValue } from "./BmValue";
 import { CallData } from "./CallData";
 import { CallDataBase } from "./CallDataBase";
 import { CallDataValue } from "./CallDataValue";
+import { CALL_METHOD } from "./CALL_METHOD";
+import { ChangeOutputFinal } from "./ChangeOutputFinal";
 import { ChartSummary } from "./ChartSummary";
 import { CommitmentOutput } from "./CommitmentOutput";
+import { CTXFinderResult } from "./CTXFinderResult";
 import { CTXPTXResult } from "./CTXPTXResult";
-import { CALL_METHOD } from "./CALL_METHOD";
 import { PAsset } from "./PAsset";
 import { Pool } from "./Pool";
 import { PoolValues } from "./PoolValues";
+import { SeperatedChangeOutputs } from "./SeperatedChangeOutputs";
+import { Status } from "./Status";
+import { TxDetail } from "./TxDetail";
 import { TxDetailRPC } from "./TxDetailRPC";
 import { TxVOutRPC } from "./TxVOutRPC";
 import { TxVInRPC } from "./TxVInRPC";
+import { VIn } from "./VIn";
+import { VOut } from "./VOut";
 
 export {
   AppSync,
@@ -35,6 +42,7 @@ export {
   BmPtx,
   BmPtxCtx,
   BmValue,
+  ChangeOutputFinal,
   CommitmentOutput,
   CALL_METHOD,
   CallData,
@@ -42,10 +50,16 @@ export {
   CallDataValue,
   ChartSummary,
   CTXPTXResult,
+  CTXFinderResult,
   PAsset,
   Pool,
   PoolValues,
+  SeperatedChangeOutputs,
+  Status,
+  TxDetail,
   TxDetailRPC,
   TxVOutRPC,
   TxVInRPC,
+  VIn,
+  VOut,
 };
