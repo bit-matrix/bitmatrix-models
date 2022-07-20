@@ -47,5 +47,4 @@ export declare type Pool = {
     };
     mainCovenantScript: string[];
     maxLeaf: number;
-    leafCount: number;
 };
