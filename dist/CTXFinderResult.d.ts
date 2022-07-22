@@ -6,7 +6,10 @@ import { TxVOutRPC } from "./TxVOutRPC";
 export declare type CTXFinderResult = {
     outputs: TxVOutRPC[];
     nsequenceValue: string;
-    cmtTxInOutpoints: string[];
+    cmtTxInOutpoints: {
+        index: number;
+        data: string;
+    }[];
     cmtOutput1Value: string;
     output2PairValue: string;
     cmtOutput2Value: string;
