@@ -1,3 +1,4 @@
+import WizData from "@script-wiz/wiz-data";
 import { ChangeOutputFinal } from "./ChangeOutputFinal";
 import { Pool } from "./Pool";
 import { SeperatedChangeOutputs } from "./SeperatedChangeOutputs";
@@ -27,4 +28,7 @@ export declare type CTXFinderResult = {
     poolId: string;
     pool: Pool;
     transaction: TxDetail;
+    cmtTxLocktimeByteLength: string;
+    outputCount: WizData;
+    inputCount: WizData;
 };
