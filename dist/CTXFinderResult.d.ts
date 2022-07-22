@@ -1,10 +1,15 @@
 import WizData from "@script-wiz/wiz-data";
 import { ChangeOutputFinal } from "./ChangeOutputFinal";
-import { Pool } from "./Pool";
 import { SeperatedChangeOutputs } from "./SeperatedChangeOutputs";
 import { TxDetail } from "./TxDetail";
+import { TxVInRPC } from "./TxVInRPC";
 import { TxVOutRPC } from "./TxVOutRPC";
 export declare type CTXFinderResult = {
+    tapTweakedResultPrefix: string;
+    cmtTxLocktimeByteLength: string;
+    outputCount: WizData;
+    inputCount: WizData;
+    inputs: TxVInRPC[];
     outputs: TxVOutRPC[];
     nsequenceValue: string;
     cmtTxInOutpoints: {
@@ -20,15 +25,13 @@ export declare type CTXFinderResult = {
     cmtOutput3Asset?: string;
     changeOutputFinal: ChangeOutputFinal[];
     seperatedChangeOutputs: SeperatedChangeOutputs[];
-    methodCall: string;
-    slippageTolerance: string;
-    orderingFee: string;
-    tapTweakedResultPrefix: string;
-    cmtOutput2DecimalValue: number;
     poolId: string;
-    pool: Pool;
+    methodCall: string;
+    publicKey: string;
+    slippageTolerance: string;
+    cmtOutput1: TxVOutRPC;
+    cmtOutput2: TxVOutRPC;
+    cmtOutput3: TxVOutRPC;
+    orderingFee: string;
     transaction: TxDetail;
-    cmtTxLocktimeByteLength: string;
-    outputCount: WizData;
-    inputCount: WizData;
 };
