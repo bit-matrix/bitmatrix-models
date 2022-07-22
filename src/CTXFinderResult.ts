@@ -1,5 +1,6 @@
 import WizData from "@script-wiz/wiz-data";
 import { ChangeOutputFinal } from "./ChangeOutputFinal";
+import { Pool } from "./Pool";
 import { SeperatedChangeOutputs } from "./SeperatedChangeOutputs";
 import { TxDetail } from "./TxDetail";
 import { TxVInRPC } from "./TxVInRPC";
@@ -33,4 +34,5 @@ export type CTXFinderResult = {
   cmtOutput3?: TxVOutRPC;
   orderingFee: string;
   transaction: TxDetail;
+  pool: Pool;
 };
