@@ -31,7 +31,7 @@ export declare type CTXFinderResult = {
     slippageTolerance: string;
     cmtOutput1: TxVOutRPC;
     cmtOutput2: TxVOutRPC;
-    cmtOutput3: TxVOutRPC;
+    cmtOutput3?: TxVOutRPC;
     orderingFee: string;
     transaction: TxDetail;
 };
