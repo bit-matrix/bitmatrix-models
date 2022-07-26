@@ -51,5 +51,5 @@ export type Pool = {
 
   maxLeaf: number;
 
-  pair1_coefficient: number;
+  pair1_coefficient: string;
 };
