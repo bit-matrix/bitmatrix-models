@@ -50,4 +50,6 @@ export type Pool = {
   mainCovenantScript: string[];
 
   maxLeaf: number;
+
+  pair1_coefficient: number;
 };
