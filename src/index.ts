@@ -29,6 +29,7 @@ import { TxVOutRPC } from "./TxVOutRPC";
 import { TxVInRPC } from "./TxVInRPC";
 import { VIn } from "./VIn";
 import { VOut } from "./VOut";
+import { PTXFinderResult } from "./PTXFinderResult";
 
 export {
   AppSync,
@@ -54,6 +55,7 @@ export {
   PAsset,
   Pool,
   PoolValues,
+  PTXFinderResult,
   SeperatedChangeOutputs,
   Status,
   TxDetail,
