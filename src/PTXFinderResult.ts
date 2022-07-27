@@ -22,11 +22,11 @@ export type PTXFinderResult = {
   poolData: Pool;
   output: PTXOutput;
   case3outputs: {
-    ouuput1: PTXOutput;
-    ouuput2: PTXOutput;
+    output1: PTXOutput;
+    output2: PTXOutput;
   };
   case4outputs: {
-    ouuput1: PTXOutput;
-    ouuput2: PTXOutput;
+    output1: PTXOutput;
+    output2: PTXOutput;
   };
 };
