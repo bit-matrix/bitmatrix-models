@@ -15,9 +15,11 @@ export type CTXPTXResult = {
   user_received_pair_1?: number; ///method call 2
   new_pool_pair_1_liquidity: number;
   new_pool_pair_2_liquidity: number;
+  new_pool_lp_supply: number;
   pool_lp_supply: number;
   new_pool_lp_liquidity: number;
   lp_circulation: number;
+  user_lp_supply_total: number;
   user_lp_received: number;
   user_lp_apx_1: number;
   user_lp_apx_2: number;
@@ -27,4 +29,10 @@ export type CTXPTXResult = {
   user_pair_2_supply_total_downgraded: number;
   mul_1: number;
   mul_2: number;
+  div_1: number;
+  div_2: number;
+  pair_1_user_redeem: number;
+  pair_2_user_redeem: number;
+  pair_1_min_redeem: number;
+  pair_2_min_redeem: number;
 };
