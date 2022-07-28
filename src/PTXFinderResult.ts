@@ -1,6 +1,9 @@
+import WizData from "@script-wiz/wiz-data";
+import { ChangeOutputFinal } from "./ChangeOutputFinal";
 import { CTXPTXResult } from "./CTXPTXResult";
 import { Pool } from "./Pool";
 import { PTXOutput } from "./PTXOutput";
+import { TxVOutRPC } from "./TxVOutRPC";
 
 export type PTXFinderResult = {
   method: string;
@@ -29,4 +32,26 @@ export type PTXFinderResult = {
     output1: PTXOutput;
     output2: PTXOutput;
   };
+  cmtOutput1?: TxVOutRPC;
+  cmtOutput2?: TxVOutRPC;
+  cmtOutput3?: TxVOutRPC;
+  outputCount?: WizData;
+  publicKey?: string;
+  poolId?: string;
+  tapTweakedResultPrefix?: string;
+  changeOutputFinal?: ChangeOutputFinal[];
+  cmtOutput1Value?: string;
+  cmtOutput2Value?: string;
+  cmtOutput3Value?: string;
+  orderingFee?: string;
+  slippageTolerance?: string;
+  methodCall?: string;
+  cmtTxInOutpoints?: {
+    index: number;
+    data: string;
+  }[];
+  output2PairValue?: string;
+  inputCount?: WizData;
+  cmtOutput3PairValue?: string;
+  cmtOutputFeeHexValue?: string;
 };
