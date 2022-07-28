@@ -1,3 +1,4 @@
+import { Aggregator } from "./Aggregator";
 import { AppSync } from "./AppSync";
 import { BmBlockInfo } from "./BmBlockInfo";
 import { BmChart } from "./BmChart";
@@ -32,6 +33,7 @@ import { VOut } from "./VOut";
 import { PTXFinderResult } from "./PTXFinderResult";
 
 export {
+  Aggregator,
   AppSync,
   BmBlockInfo,
   BmChart,
