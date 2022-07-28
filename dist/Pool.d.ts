@@ -32,7 +32,7 @@ export declare type Pool = {
     /**
      * token price opposite to quote price
      */
-    tokenPrice?: number;
+    tokenPrice: number;
     holderCovenant: {
         scriptpubkey: {
             main: string;
