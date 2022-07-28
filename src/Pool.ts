@@ -1,6 +1,4 @@
-import { BmBlockInfo } from "./BmBlockInfo";
 import { BmTxInfo } from "./BmTxInfo";
-import { ChartData } from "./ChartData";
 import { PAsset } from "./PAsset";
 
 /**
@@ -40,7 +38,7 @@ export type Pool = {
   /**
    * token price opposite to quote price
    */
-  tokenPrice?: number;
+  tokenPrice: number;
 
   holderCovenant: {
     scriptpubkey: { main: string; token: string; lp: string };
