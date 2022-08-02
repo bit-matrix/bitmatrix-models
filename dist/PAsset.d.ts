@@ -1,6 +1,8 @@
 export declare type PAsset = {
-    ticker: string;
+    assetHash: string;
+    precision: number;
     name: string;
-    asset: string;
-    value: string;
+    ticker: string;
+    value?: string;
+    isQuote?: boolean;
 };

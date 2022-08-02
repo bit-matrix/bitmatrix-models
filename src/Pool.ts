@@ -1,4 +1,3 @@
-import { BmBlockInfo } from "./BmBlockInfo";
 import { BmTxInfo } from "./BmTxInfo";
 import { PAsset } from "./PAsset";
 
@@ -20,14 +19,21 @@ export type Pool = {
    */
   initialTx: BmTxInfo;
 
-  lastStateTxId: string;
-
   /**
    * pool is active
    */
   active: boolean;
+
   /**
    * token price opposite to quote price
    */
-  tokenPrice?: number;
+  tokenPrice: number;
+
+  maxLeaf: number;
+
+  pair1_coefficient: { hex: string; number: number };
+
+  version: string;
+
+  lastStateTxId: string;
 };

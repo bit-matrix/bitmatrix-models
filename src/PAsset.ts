@@ -1,6 +1,8 @@
-export type PAsset = { 
-    ticker: string; 
-    name: string; 
-    asset: string; 
-    value: string 
+export type PAsset = {
+  assetHash: string;
+  precision: number;
+  name: string;
+  ticker: string;
+  value?: string;
+  isQuote?: boolean;
 };

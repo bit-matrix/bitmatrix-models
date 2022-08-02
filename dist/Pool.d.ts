@@ -16,7 +16,6 @@ export declare type Pool = {
      * pool creation tx info
      */
     initialTx: BmTxInfo;
-    lastStateTxId: string;
     /**
      * pool is active
      */
@@ -24,5 +23,12 @@ export declare type Pool = {
     /**
      * token price opposite to quote price
      */
-    tokenPrice?: number;
+    tokenPrice: number;
+    maxLeaf: number;
+    pair1_coefficient: {
+        hex: string;
+        number: number;
+    };
+    version: string;
+    lastStateTxId: string;
 };
