@@ -20,17 +20,6 @@ export type Pool = {
   initialTx: BmTxInfo;
 
   /**
-   * recent worker found pool tx (it may be spent, validate "synced")
-   */
-  unspentTx?: BmTxInfo;
-
-  /**
-   * if worker broadcast one tx, save here.
-   * when it confirmed (worker found new ptx is equal to this), delete for new creation pool tx
-   */
-  lastSentPtx: string | undefined;
-
-  /**
    * pool is active
    */
   active: boolean;
@@ -40,14 +29,11 @@ export type Pool = {
    */
   tokenPrice: number;
 
-  holderCovenant: {
-    scriptpubkey: { main: string; token: string; lp: string };
-    controlBlockPrefix: { main: string; token: string; lp: string };
-  };
-
-  mainCovenantScript: string[];
-
   maxLeaf: number;
 
   pair1_coefficient: { hex: string; number: number };
+
+  version: string;
+
+  lastStateTxId: string;
 };
