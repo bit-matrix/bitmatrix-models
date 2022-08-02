@@ -31,10 +31,12 @@ import { TxVInRPC } from "./TxVInRPC";
 import { VIn } from "./VIn";
 import { VOut } from "./VOut";
 import { PTXFinderResult } from "./PTXFinderResult";
+import { BitmatrixStoreData } from "./BitmatrixStoreData";
 
 export {
   Aggregator,
   AppSync,
+  BitmatrixStoreData,
   BmBlockInfo,
   BmChart,
   BmConfig,
