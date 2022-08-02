@@ -16,6 +16,7 @@ export declare type Pool = {
      * pool creation tx info
      */
     initialTx: BmTxInfo;
+<<<<<<< HEAD
     /**
      * recent worker found pool tx (it may be spent, validate "synced")
      */
@@ -25,6 +26,9 @@ export declare type Pool = {
      * when it confirmed (worker found new ptx is equal to this), delete for new creation pool tx
      */
     lastSentPtx: string | undefined;
+=======
+    lastStateTxId: string;
+>>>>>>> master
     /**
      * pool is active
      */
