@@ -31,4 +31,5 @@ import { TxVInRPC } from "./TxVInRPC";
 import { VIn } from "./VIn";
 import { VOut } from "./VOut";
 import { PTXFinderResult } from "./PTXFinderResult";
-export { Aggregator, AppSync, BmBlockInfo, BmChart, BmConfig, BmCtxMempool, BmCtxNew, BmNewPtxResult, BmTxInfo, BmPtx, BmPtxCtx, BmValue, ChangeOutputFinal, CommitmentOutput, CALL_METHOD, CallData, CallDataBase, CallDataValue, ChartSummary, CTXPTXResult, CTXFinderResult, PAsset, Pool, PoolValues, PTXFinderResult, SeperatedChangeOutputs, Status, TxDetail, TxDetailRPC, TxVOutRPC, TxVInRPC, VIn, VOut, };
+import { BitmatrixStoreData } from "./BitmatrixStoreData";
+export { Aggregator, AppSync, BitmatrixStoreData, BmBlockInfo, BmChart, BmConfig, BmCtxMempool, BmCtxNew, BmNewPtxResult, BmTxInfo, BmPtx, BmPtxCtx, BmValue, ChangeOutputFinal, CommitmentOutput, CALL_METHOD, CallData, CallDataBase, CallDataValue, ChartSummary, CTXPTXResult, CTXFinderResult, PAsset, Pool, PoolValues, PTXFinderResult, SeperatedChangeOutputs, Status, TxDetail, TxDetailRPC, TxVOutRPC, TxVInRPC, VIn, VOut, };
