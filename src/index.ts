@@ -15,6 +15,7 @@ import { CallDataBase } from "./CallDataBase";
 import { CallDataValue } from "./CallDataValue";
 import { CALL_METHOD } from "./CALL_METHOD";
 import { ChangeOutputFinal } from "./ChangeOutputFinal";
+import { ChartData } from "./ChartData";
 import { ChartSummary } from "./ChartSummary";
 import { CommitmentOutput } from "./CommitmentOutput";
 import { CTXFinderResult } from "./CTXFinderResult";
@@ -47,15 +48,16 @@ export {
   BmPtx,
   BmPtxCtx,
   BmValue,
-  ChangeOutputFinal,
-  CommitmentOutput,
   CALL_METHOD,
   CallData,
   CallDataBase,
   CallDataValue,
+  ChangeOutputFinal,
+  ChartData,
   ChartSummary,
   CTXPTXResult,
   CTXFinderResult,
+  CommitmentOutput,
   PAsset,
   Pool,
   PoolValues,
