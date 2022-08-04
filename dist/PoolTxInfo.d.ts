@@ -1,5 +1,5 @@
 export declare type poolTxInfo = {
-    txId: boolean;
+    txId: string;
     isSuccess: boolean;
     failReason?: string;
 };

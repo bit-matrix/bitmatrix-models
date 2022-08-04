@@ -2,6 +2,7 @@ import { Aggregator } from "./Aggregator";
 import { AppSync } from "./AppSync";
 import { BmBlockInfo } from "./BmBlockInfo";
 import { BmChart } from "./BmChart";
+import { BmChartResult } from "./BmChartResult";
 import { BmConfig } from "./BmConfig";
 import { BmCtxMempool } from "./BmCtxMempool";
 import { BmCtxNew } from "./BmCtxNew";
@@ -40,6 +41,7 @@ export {
   BitmatrixStoreData,
   BmBlockInfo,
   BmChart,
+  BmChartResult,
   BmConfig,
   BmCtxMempool,
   BmCtxNew,
