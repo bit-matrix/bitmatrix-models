@@ -1,5 +1,6 @@
 import { CTXFinderResult } from "./CTXFinderResult";
+import { poolTxInfo } from "./PoolTxInfo";
 export declare type BitmatrixStoreData = {
     commitmentData: CTXFinderResult;
-    poolTxId?: string;
+    poolTxInfo?: poolTxInfo;
 };
