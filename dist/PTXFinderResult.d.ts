@@ -28,4 +28,5 @@ export declare type PTXFinderResult = {
         output1: PTXOutput;
         output2: PTXOutput;
     };
+    errorMessages: string[];
 };
