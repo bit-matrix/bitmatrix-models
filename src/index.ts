@@ -18,6 +18,7 @@ import { CALL_METHOD } from "./CALL_METHOD";
 import { ChangeOutputFinal } from "./ChangeOutputFinal";
 import { ChartData } from "./ChartData";
 import { ChartSummary } from "./ChartSummary";
+import { CommitmentTxHistory } from "./CommitmentTxHistory";
 import { CommitmentOutput } from "./CommitmentOutput";
 import { CTXFinderResult } from "./CTXFinderResult";
 import { CTXPTXResult } from "./CTXPTXResult";
@@ -59,6 +60,7 @@ export {
   ChartSummary,
   CTXPTXResult,
   CTXFinderResult,
+  CommitmentTxHistory,
   CommitmentOutput,
   PAsset,
   Pool,
