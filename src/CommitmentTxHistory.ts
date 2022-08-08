@@ -1,6 +1,7 @@
-import { poolTxInfo } from "./PoolTxInfo";
-
 export type CommitmentTxHistory = {
-  key: string;
-  val: poolTxInfo;
+  poolId: string;
+  method: string;
+  txId: string;
+  isSuccess: boolean;
+  failReason?: string;
 };
