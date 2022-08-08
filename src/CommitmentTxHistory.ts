@@ -5,5 +5,5 @@ export type CommitmentTxHistory = {
   method: CALL_METHOD;
   txId: string;
   isSuccess: boolean;
-  failReason?: string;
+  failReasons?: string[];
 };
