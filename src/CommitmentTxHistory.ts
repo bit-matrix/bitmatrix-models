@@ -6,4 +6,5 @@ export type CommitmentTxHistory = {
   txId: string;
   isSuccess: boolean;
   failReasons?: string[];
+  timestamp?: number;
 };
