@@ -15,7 +15,6 @@ export type CTXFinderResult = {
   outputs: TxVOutRPC[];
   nsequenceValue: string;
   cmtTxInOutpoints: { index: number; data: string }[];
-
   cmtOutput1Value: string;
   output2PairValue: string;
   cmtOutput2Value: string;
@@ -34,5 +33,4 @@ export type CTXFinderResult = {
   cmtOutput3?: TxVOutRPC;
   orderingFee: string;
   transaction: TxDetail;
-  pool: Pool;
 };
