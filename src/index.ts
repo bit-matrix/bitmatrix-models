@@ -29,6 +29,8 @@ import { SeperatedChangeOutputs } from "./SeperatedChangeOutputs";
 import { Status } from "./Status";
 import { TxDetail } from "./TxDetail";
 import { TxDetailRPC } from "./TxDetailRPC";
+import { TxStatus } from "./TxStatus";
+import { TX_STATUS } from "./TX_STATUS";
 import { TxVOutRPC } from "./TxVOutRPC";
 import { TxVInRPC } from "./TxVInRPC";
 import { VIn } from "./VIn";
@@ -70,6 +72,8 @@ export {
   Status,
   TxDetail,
   TxDetailRPC,
+  TxStatus,
+  TX_STATUS,
   TxVOutRPC,
   TxVInRPC,
   VIn,
