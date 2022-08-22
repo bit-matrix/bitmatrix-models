@@ -32,6 +32,10 @@ export type Pool = {
   maxLeaf: number;
 
   pair1_coefficient: { hex: string; number: number };
+  lpFeeTierIndex: {
+    hex: string;
+    number: number;
+  };
 
   version: string;
 
