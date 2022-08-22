@@ -34,4 +34,7 @@ export declare type CTXFinderResult = {
     cmtOutput3?: TxVOutRPC;
     orderingFee: string;
     transaction: TxDetail;
+    pair1Ticker: string;
+    pair2Ticker: string;
+    lpTicker: string;
 };
