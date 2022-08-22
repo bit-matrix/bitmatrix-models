@@ -29,6 +29,10 @@ export declare type Pool = {
         hex: string;
         number: number;
     };
+    lpFeeTierIndex: {
+        hex: string;
+        number: number;
+    };
     version: string;
     lastStateTxId: string;
 };
