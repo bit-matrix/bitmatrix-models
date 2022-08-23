@@ -11,10 +11,6 @@ export declare type CTXFinderResult = {
     outputCount: WizData;
     inputs: TxVInRPC[];
     outputs: TxVOutRPC[];
-    cmtTxInOutpoints: {
-        index: number;
-        data: string;
-    }[];
     poolId: string;
     methodCall: string;
     publicKey: string;
