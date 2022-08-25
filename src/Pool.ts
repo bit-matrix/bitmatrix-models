@@ -29,7 +29,7 @@ export type Pool = {
    */
   tokenPrice: number;
 
-  maxLeaf: number;
+  leafCount: number;
 
   pair1_coefficient: { hex: string; number: number };
   lpFeeTierIndex: {
