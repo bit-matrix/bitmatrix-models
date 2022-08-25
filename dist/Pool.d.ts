@@ -24,7 +24,7 @@ export declare type Pool = {
      * token price opposite to quote price
      */
     tokenPrice: number;
-    maxLeaf: number;
+    leafCount: number;
     pair1_coefficient: {
         hex: string;
         number: number;
