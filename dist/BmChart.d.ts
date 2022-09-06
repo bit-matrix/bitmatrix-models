@@ -1,4 +1,3 @@
-import { CALL_METHOD } from "./CALL_METHOD";
 export declare type BmChart = {
     time: number;
     ptxid: string;
@@ -12,5 +11,4 @@ export declare type BmChart = {
         token: number;
     };
     price: number;
-    method: CALL_METHOD;
 };
