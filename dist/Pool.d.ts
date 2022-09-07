@@ -1,5 +1,5 @@
-import { Asset } from "./Asset";
 import { BmTxInfo } from "./BmTxInfo";
+import { PAsset } from "./PAsset";
 /**
  * worker looks before creating new pool tx:
  * if(synced && lastSentPtx === undefined && exist(new_ctx))
@@ -9,9 +9,9 @@ export declare type Pool = {
      * pool assets, values
      */
     id: string;
-    quote: Asset;
-    token: Asset;
-    lp: Asset;
+    quote: PAsset;
+    token: PAsset;
+    lp: PAsset;
     /**
      * pool creation tx info
      */
@@ -20,6 +20,10 @@ export declare type Pool = {
      * pool is active
      */
     active: boolean;
+    /**
+     * token price opposite to quote price
+     */
+    tokenPrice: number;
     leafCount: number;
     pair1_coefficient: {
         hex: string;
