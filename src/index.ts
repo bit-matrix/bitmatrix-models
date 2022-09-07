@@ -1,6 +1,5 @@
 import { Aggregator } from "./Aggregator";
 import { AppSync } from "./AppSync";
-import { Asset } from "./Asset";
 import { BmBlockInfo } from "./BmBlockInfo";
 import { BmChart } from "./BmChart";
 import { BmChartResult } from "./BmChartResult";
@@ -37,10 +36,12 @@ import { VIn } from "./VIn";
 import { VOut } from "./VOut";
 import { PTXFinderResult } from "./PTXFinderResult";
 import { BitmatrixStoreData } from "./BitmatrixStoreData";
+import { PAsset } from "./PAsset";
+
 export {
   Aggregator,
   AppSync,
-  Asset,
+  PAsset,
   BitmatrixStoreData,
   BmBlockInfo,
   BmChart,
