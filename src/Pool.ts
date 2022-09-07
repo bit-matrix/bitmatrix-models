@@ -1,5 +1,5 @@
+import { Asset } from "./Asset";
 import { BmTxInfo } from "./BmTxInfo";
-import { PAsset } from "./PAsset";
 
 /**
  * worker looks before creating new pool tx:
@@ -10,9 +10,9 @@ export type Pool = {
    * pool assets, values
    */
   id: string;
-  quote: PAsset;
-  token: PAsset;
-  lp: PAsset;
+  quote: Asset;
+  token: Asset;
+  lp: Asset;
 
   /**
    * pool creation tx info
@@ -23,12 +23,6 @@ export type Pool = {
    * pool is active
    */
   active: boolean;
-
-  /**
-   * token price opposite to quote price
-   */
-  tokenPrice: number;
-
   leafCount: number;
 
   pair1_coefficient: { hex: string; number: number };
