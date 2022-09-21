@@ -1,5 +1,5 @@
 export declare type BmChart = {
-    time: number;
+    timestamp: number;
     ptxid: string;
     value: {
         quote: number;
@@ -11,5 +11,4 @@ export declare type BmChart = {
         token: number;
     };
     price: number;
-    lpFeeTier: number;
 };
