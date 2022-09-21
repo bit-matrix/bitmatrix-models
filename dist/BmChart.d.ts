@@ -6,10 +6,6 @@ export declare type BmChart = {
         token: number;
         lp: number;
     };
-    volume: {
-        quote: number;
-        token: number;
-    };
     price: number;
     lpFeeTier: number;
 };
