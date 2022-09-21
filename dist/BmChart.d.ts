@@ -11,4 +11,5 @@ export declare type BmChart = {
         token: number;
     };
     price: number;
+    lpFeeTier: number;
 };
