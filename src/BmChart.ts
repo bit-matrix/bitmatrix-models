@@ -4,4 +4,5 @@ export type BmChart = {
   value: { quote: number; token: number; lp: number };
   volume: { quote: number; token: number };
   price: number;
+  lpFeeTier: number;
 };
