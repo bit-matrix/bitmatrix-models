@@ -1,5 +1,5 @@
 export declare type BmChart = {
-    timestamp: number;
+    time: number;
     ptxid: string;
     value: {
         quote: number;
