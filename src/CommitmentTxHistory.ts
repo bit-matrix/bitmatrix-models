@@ -8,4 +8,5 @@ export type CommitmentTxHistory = {
   timestamp: number;
   failReasons?: string;
   value: string;
+  poolTxId?:string
 };
