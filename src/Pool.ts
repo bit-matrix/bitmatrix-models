@@ -24,14 +24,10 @@ export type Pool = {
    */
   active: boolean;
 
-  /**
-   * token price opposite to quote price
-   */
-  tokenPrice: number;
-
   leafCount: number;
 
   pair1_coefficient: { hex: string; number: number };
+
   lpFeeTierIndex: {
     hex: string;
     number: number;
