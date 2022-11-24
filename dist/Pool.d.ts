@@ -20,10 +20,6 @@ export declare type Pool = {
      * pool is active
      */
     active: boolean;
-    /**
-     * token price opposite to quote price
-     */
-    tokenPrice: number;
     leafCount: number;
     pair1_coefficient: {
         hex: string;
